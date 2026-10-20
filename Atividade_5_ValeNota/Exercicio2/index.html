@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x  = parseInt(prompt ("1 Informe valores"))
+        var y  = parseInt(prompt ("2 Informe valores"))
+        var z  = parseInt(prompt ("3 Informe valores"))
+
+        if(x == y && y == z){
+            alert ("Todos os números são iguais")
+        }
+        else if(x == y){
+            alert ("O primero numero e o segundo numero digitados são iguais " + x + " , " + y)
+        }
+        else if(x == z){
+            alert ("O primero numero e o terceiro numero digitados são iguais " + x + " , " + z)
+        }
+        else if(y == x){
+            alert ("O segundo numero e o primiro numero digitados são iguais " + y + " , " + x)
+        }
+        else if(y == z){
+            alert ("O segundo numero e o terceito numero digitados são iguais " + y + " , " + z)
+        }
+        else if(z == x){
+            alert ("O terceito numero e o primeiro numero digitados são iguais " + z + " , " + x)
+        }
+        else if(z == y){
+            alert ("O terceito numero e o segundo numero digitados são iguais " + z + " , " + y)
+        }
+        else if(y >= x && y >= z){
+            alert ("O seu numero e maior que os outros " + y)
+        }
+        else if(z >= x && z >= y){
+            alert ("O seu numero e maior que os outros " + z)
+        }
+        else if(x >= y && x >= z){
+            alert ("O seu numero e maior que os outros " + x)
+        }
+    </script>
+</body>
+</html>
